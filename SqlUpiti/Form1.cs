@@ -30,7 +30,7 @@ namespace SqlUpiti
                 rezultatLabel.Visible = false;
                 dataGridView1.Visible = false;
 
-                MessageBox.Show(this,"Niste unijeli SQL upit. "+"Unesite SQL upit","Nema SQL upita",MessageBoxButtons.OK,MessageBoxIcon.Warning);
+                MessageBox.Show(this,"Niste unijeli SQL upit.\nMolimo unesite SQL upit.","Nema SQL upita",MessageBoxButtons.OK,MessageBoxIcon.Warning);
             }
             else
             {
@@ -49,7 +49,7 @@ namespace SqlUpiti
                 {
                     rezultatLabel.Visible = false;
                     dataGridView1.Visible = false;
-                    MessageBox.Show(this,"Greška prilikom izvrsavanja upita: " + ex.Message, "Greška", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(this,"Greška prilikom izvršavanja upita: " + ex.Message, "Greška", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 finally
                 {
