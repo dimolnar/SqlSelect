@@ -8,7 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Configuration;
-using System.Data;
 using System.Data.SqlClient;
 
 
@@ -28,6 +27,9 @@ namespace SqlUpiti
             string upit = textBoxUpit.Text;
             if (String.IsNullOrEmpty(upit))
             {
+                rezultatLabel.Visible = false;
+                dataGridView1.Visible = false;
+
                 MessageBox.Show(this,"Niste unijeli SQL upit. "+"Unesite SQL upit","Nema SQL upita",MessageBoxButtons.OK,MessageBoxIcon.Warning);
             }
             else
@@ -40,9 +42,13 @@ namespace SqlUpiti
                     DataTable tablica = new DataTable();
                     adapter.Fill(tablica);
                     dataGridView1.DataSource = new BindingSource(tablica,null);
+                    rezultatLabel.Visible = true;
+                    dataGridView1.Visible = true;
                 }
                 catch (SqlException ex)
                 {
+                    rezultatLabel.Visible = false;
+                    dataGridView1.Visible = false;
                     MessageBox.Show(this,"Greška prilikom izvrsavanja upita: " + ex.Message, "Greška", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 finally

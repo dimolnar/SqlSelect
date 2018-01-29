@@ -48,30 +48,32 @@
             // 
             // textBoxUpit
             // 
-            this.textBoxUpit.Location = new System.Drawing.Point(12, 45);
+            this.textBoxUpit.Location = new System.Drawing.Point(82, 45);
             this.textBoxUpit.Multiline = true;
             this.textBoxUpit.Name = "textBoxUpit";
             this.textBoxUpit.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxUpit.Size = new System.Drawing.Size(390, 38);
+            this.textBoxUpit.Size = new System.Drawing.Size(320, 38);
             this.textBoxUpit.TabIndex = 1;
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(15, 147);
+            this.dataGridView1.Location = new System.Drawing.Point(82, 135);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(485, 188);
+            this.dataGridView1.Size = new System.Drawing.Size(320, 188);
             this.dataGridView1.TabIndex = 2;
+            this.dataGridView1.Visible = false;
             // 
             // rezultatLabel
             // 
             this.rezultatLabel.AutoSize = true;
             this.rezultatLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rezultatLabel.Location = new System.Drawing.Point(15, 116);
+            this.rezultatLabel.Location = new System.Drawing.Point(12, 105);
             this.rezultatLabel.Name = "rezultatLabel";
             this.rezultatLabel.Size = new System.Drawing.Size(109, 16);
             this.rezultatLabel.TabIndex = 3;
             this.rezultatLabel.Text = "Rezultat upita:";
+            this.rezultatLabel.Visible = false;
             // 
             // buttonIzvrsi
             // 
