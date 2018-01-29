@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.upitLabel = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBoxUpit = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.rezultatLabel = new System.Windows.Forms.Label();
             this.buttonIzvrsi = new System.Windows.Forms.Button();
@@ -46,14 +46,14 @@
             this.upitLabel.TabIndex = 0;
             this.upitLabel.Text = "SELECT SQL upit:";
             // 
-            // textBox1
+            // textBoxUpit
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 46);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox1.Size = new System.Drawing.Size(390, 54);
-            this.textBox1.TabIndex = 1;
+            this.textBoxUpit.Location = new System.Drawing.Point(12, 45);
+            this.textBoxUpit.Multiline = true;
+            this.textBoxUpit.Name = "textBoxUpit";
+            this.textBoxUpit.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBoxUpit.Size = new System.Drawing.Size(390, 38);
+            this.textBoxUpit.TabIndex = 1;
             // 
             // dataGridView1
             // 
@@ -76,12 +76,13 @@
             // buttonIzvrsi
             // 
             this.buttonIzvrsi.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonIzvrsi.Location = new System.Drawing.Point(426, 76);
+            this.buttonIzvrsi.Location = new System.Drawing.Point(425, 60);
             this.buttonIzvrsi.Name = "buttonIzvrsi";
             this.buttonIzvrsi.Size = new System.Drawing.Size(75, 23);
             this.buttonIzvrsi.TabIndex = 4;
             this.buttonIzvrsi.Text = "Izvrsi";
             this.buttonIzvrsi.UseVisualStyleBackColor = true;
+            this.buttonIzvrsi.Click += new System.EventHandler(this.buttonIzvrsi_Click);
             // 
             // Form1
             // 
@@ -91,9 +92,10 @@
             this.Controls.Add(this.buttonIzvrsi);
             this.Controls.Add(this.rezultatLabel);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBoxUpit);
             this.Controls.Add(this.upitLabel);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SQL upit";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
@@ -104,7 +106,7 @@
         #endregion
 
         private System.Windows.Forms.Label upitLabel;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBoxUpit;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label rezultatLabel;
         private System.Windows.Forms.Button buttonIzvrsi;
