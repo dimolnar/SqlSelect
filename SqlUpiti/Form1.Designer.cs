@@ -82,7 +82,7 @@
             this.buttonIzvrsi.Name = "buttonIzvrsi";
             this.buttonIzvrsi.Size = new System.Drawing.Size(75, 23);
             this.buttonIzvrsi.TabIndex = 4;
-            this.buttonIzvrsi.Text = "Izvrsi";
+            this.buttonIzvrsi.Text = "Izvrši";
             this.buttonIzvrsi.UseVisualStyleBackColor = true;
             this.buttonIzvrsi.Click += new System.EventHandler(this.buttonIzvrsi_Click);
             // 
