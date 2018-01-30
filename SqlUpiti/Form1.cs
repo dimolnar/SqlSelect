@@ -32,6 +32,12 @@ namespace SqlUpiti
 
                 MessageBox.Show(this,"Niste unijeli SQL upit.\nMolimo unesite SQL upit.","Nema SQL upita",MessageBoxButtons.OK,MessageBoxIcon.Warning);
             }
+            else if (upit.ToUpper().Contains("INSERT ")|| upit.ToUpper().Contains("UPDATE ") || upit.ToUpper().Contains("DELETE "))
+            {
+                rezultatLabel.Visible = false;
+                dataGridView1.Visible = false;
+                MessageBox.Show(this, "Dozvoljeni samo SELECT upiti!", "Greška", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
             else
             {
                 SqlConnection konekcija = new SqlConnection(connString);
