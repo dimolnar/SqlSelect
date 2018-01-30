@@ -48,20 +48,20 @@
             // 
             // textBoxUpit
             // 
-            this.textBoxUpit.Location = new System.Drawing.Point(82, 45);
+            this.textBoxUpit.Location = new System.Drawing.Point(47, 45);
             this.textBoxUpit.Multiline = true;
             this.textBoxUpit.Name = "textBoxUpit";
             this.textBoxUpit.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxUpit.Size = new System.Drawing.Size(320, 38);
+            this.textBoxUpit.Size = new System.Drawing.Size(543, 80);
             this.textBoxUpit.TabIndex = 1;
             // 
             // dataGridView1
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(82, 135);
+            this.dataGridView1.Location = new System.Drawing.Point(47, 174);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(320, 188);
+            this.dataGridView1.Size = new System.Drawing.Size(655, 211);
             this.dataGridView1.TabIndex = 2;
             this.dataGridView1.Visible = false;
             // 
@@ -69,7 +69,7 @@
             // 
             this.rezultatLabel.AutoSize = true;
             this.rezultatLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rezultatLabel.Location = new System.Drawing.Point(12, 105);
+            this.rezultatLabel.Location = new System.Drawing.Point(12, 145);
             this.rezultatLabel.Name = "rezultatLabel";
             this.rezultatLabel.Size = new System.Drawing.Size(106, 16);
             this.rezultatLabel.TabIndex = 3;
@@ -79,7 +79,7 @@
             // buttonIzvrsi
             // 
             this.buttonIzvrsi.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonIzvrsi.Location = new System.Drawing.Point(425, 60);
+            this.buttonIzvrsi.Location = new System.Drawing.Point(627, 102);
             this.buttonIzvrsi.Name = "buttonIzvrsi";
             this.buttonIzvrsi.Size = new System.Drawing.Size(75, 23);
             this.buttonIzvrsi.TabIndex = 4;
@@ -91,7 +91,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(510, 347);
+            this.ClientSize = new System.Drawing.Size(740, 414);
             this.Controls.Add(this.buttonIzvrsi);
             this.Controls.Add(this.rezultatLabel);
             this.Controls.Add(this.dataGridView1);
