@@ -99,7 +99,7 @@
             this.Controls.Add(this.upitLabel);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "SQL upit";
+            this.Text = "Prikaz naredbe SELECT";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
