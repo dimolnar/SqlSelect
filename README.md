@@ -1,5 +1,5 @@
-### SqlUpiti
-SqlUpiti je Windows Forms Application koja omogućuje upis i izvođenje sql select naredbi nad bazom.
+### SqlSelect
+SqlSelect je Windows Forms Application koja omogućuje upis i izvođenje sql select naredbi nad bazom.
 
 #### Opis forme
 Forma sadrži TextBox za unos upita, Button na čiji klik se odvija spajanje na bazu i izvršavanje upita,
