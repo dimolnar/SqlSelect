@@ -42,7 +42,7 @@
             this.upitLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.upitLabel.Location = new System.Drawing.Point(12, 20);
             this.upitLabel.Name = "upitLabel";
-            this.upitLabel.Size = new System.Drawing.Size(144, 16);
+            this.upitLabel.Size = new System.Drawing.Size(132, 16);
             this.upitLabel.TabIndex = 0;
             this.upitLabel.Text = "SELECT SQL upit:";
             // 
@@ -57,6 +57,7 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(82, 135);
             this.dataGridView1.Name = "dataGridView1";
@@ -70,7 +71,7 @@
             this.rezultatLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rezultatLabel.Location = new System.Drawing.Point(12, 105);
             this.rezultatLabel.Name = "rezultatLabel";
-            this.rezultatLabel.Size = new System.Drawing.Size(109, 16);
+            this.rezultatLabel.Size = new System.Drawing.Size(106, 16);
             this.rezultatLabel.TabIndex = 3;
             this.rezultatLabel.Text = "Rezultat upita:";
             this.rezultatLabel.Visible = false;
